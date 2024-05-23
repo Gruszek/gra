@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function findBestMove(emptyCells) {
-        // Simple AI for medium/hard levels
+        // Prosta AI dla poziomów średniego i trudnego
         for (let i = 0; i < emptyCells.length; i++) {
             const cell = emptyCells[i];
             cell.textContent = PLAYER_O;
